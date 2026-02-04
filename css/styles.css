@@ -1,0 +1,60 @@
+:root {
+    --color-brand-main: #47A573;
+    --color-text-ligth: #E3F1EA;
+    --color-brand-dark: #3E5147;
+    --color-text-dark: #312C33;
+    --color-brand-ligth: #61E19D;
+}
+
+/*global*/
+body {
+    color: var(--color-text-dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: var(--color-brand-dark);
+}
+
+/*buttons*/
+.button {
+    color: var(--color-brand-main);
+    background-color: var(--color-text-ligth);
+    border: 1px solid var(--color-brand-main);
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: var(--color-text-ligth);
+    background-color: var(--color-brand-main);
+}
+
+.button:active {
+    color: var(--color-text-ligth);
+    background-color: var(--color-brand-dark);
+}
+
+/*link*/
+.header-link {
+    color: var(--color-text-ligth);
+}
+
+.header-link:hover {
+    color: var(--color-brand-main);
+}
+
+.header-link:active {
+    color: var(--color-brand-dark);
+}
+
+.hero-title {
+    color: var(--color-brand-ligth);
+}
+
+/*head-section*/
+.head-section {
+    background-image: ;
+}
