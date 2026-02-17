@@ -7,20 +7,52 @@
 }
 
 /*global*/
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: var(--color-text-dark);
+    font-family: 'Mariupol', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: none;     
 }
 
 h2 {
     color: var(--color-brand-dark);
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.section {
+    padding: 58px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1458 px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
 /*buttons*/
 .button {
+    padding: 8px 60px;
     color: var(--color-brand-main);
     background-color: var(--color-text-ligth);
     border: 1px solid var(--color-brand-main);
@@ -40,6 +72,8 @@ h2 {
 /*link*/
 .header-link {
     color: var(--color-text-ligth);
+    text-decoration: none;
+    font-size: 22px;
 }
 
 .header-link:hover {
@@ -50,11 +84,46 @@ h2 {
     color: var(--color-brand-dark);
 }
 
-.hero-title {
-    color: var(--color-brand-ligth);
-}
+
 
 /*head-section*/
+.hero-title {
+    margin-bottom: 0;
+    color: var(--color-brand-ligth);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+}
+
 .head-section {
-    background-image: ;
+    padding: 270px 0;
+}
+
+/*star-section*/
+.star-section {
+    padding-top: 116px;
+}
+
+.star-title {
+    margin-bottom: 183px;
+}
+
+/*product-section*/
+.product-title {
+    margin-bottom: 178px;
+}
+
+/*company-section*/
+.company-title {
+    margin-bottom: 102px;
+}
+
+/*accident-section*/
+.accident-title {
+    margin-bottom: 153px;
+}
+
+/*contact-section*/
+.contact-title {
+    margin-bottom: 202px;
 }
