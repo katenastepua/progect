@@ -25,6 +25,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;     
 }
 
@@ -32,6 +34,7 @@ h2 {
     color: var(--color-brand-dark);
     font-size: 40px;
     font-weight: 600;
+    text-align: center;
 }
 
 h3 {
@@ -87,16 +90,37 @@ h3 {
 
 
 /*head-section*/
+.head-section {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../image/head_image\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position: top;   
+    background-size: cover;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+}
+
 .hero-title {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
     margin-bottom: 0;
     color: var(--color-brand-ligth);
     text-align: center;
     font-size: 60px;
     font-weight: 900;
+    padding: 430px 0 130px;
 }
 
-.head-section {
-    padding: 270px 0;
+.header-menu {
+    display: flex;
+    gap: 128px;
+    justify-content: center;
+    padding: 16px;
 }
 
 /*star-section*/
@@ -105,7 +129,33 @@ h3 {
 }
 
 .star-title {
-    margin-bottom: 183px;
+    margin-bottom: 183px;  
+}
+
+.slider {
+    display: flex;
+    gap: 36px;
+}
+
+.slider-card {
+    height: 386px;
+    width: 1248px;
+    display: flex;
+    flex-basis: 100%;
+}
+
+.star-card {
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+}
+
+.star-card-content {
+    max-width: 530px;
+}
+
+.star-card-img {
+    max-width: 530x;
 }
 
 /*product-section*/
