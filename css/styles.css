@@ -34,7 +34,14 @@ h2 {
     color: var(--color-brand-dark);
     font-size: 40px;
     font-weight: 600;
-    text-align: center;
+    text-align: center;    
+}
+
+.style-h2 {
+    height: 170px;
+    background-image: url('../image/decor_parth.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 h3 {
@@ -135,6 +142,7 @@ h3 {
 .slider {
     display: flex;
     gap: 36px;
+    margin-top: 80px;
 }
 
 .slider-card {
@@ -147,15 +155,24 @@ h3 {
 .star-card {
     display: flex;
     gap: 70px;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .star-card-content {
-    max-width: 530px;
+    width: 530px;
 }
 
-.star-card-img {
-    max-width: 530x;
+.card-minikasko {
+    background-image: url('../image/decor_card_kasko.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.card-dekor {
+    width: 630px;
+    background-image: url('../image/decor_card.svg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /*product-section*/
